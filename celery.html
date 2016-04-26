@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+body {
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script>
+$(function() {
+  $('#video').css({
+    width: $(window).innerWidth() + 'px',
+    height: $(window).innerHeight() + 'px'
+  });
+
+  $(window).resize(function() {
+    $('#video').css({
+      width: $(window).innerWidth() + 'px',
+      height: $(window).innerHeight() + 'px'
+    });
+  });
+});
+</script>
+<iframe id="video" src="//www.youtube.com/embed/maAFcEU6atk?rel=0&autoplay=true" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
