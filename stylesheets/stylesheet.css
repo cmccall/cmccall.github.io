@@ -271,6 +271,22 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#me_banner {
+  background-image: url('../images/me_speech.jpg');
+  background-position: left -190px top -40px;
+  width: 250px;
+  height: 250px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  border:1px solid #212121;
+  -webkit-box-shadow: 10px 10px 10px 0px #212121;
+  -moz-box-shadow: 10px 10px 10px 0px #212121;
+  box-shadow: 10px 10px 10px 0px #212121;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -288,11 +304,11 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
+  /*background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
